@@ -1,0 +1,16 @@
+import java.io.*;
+class InputData
+{
+public static void main(String arge[])throwa IOException
+
+ {
+BufferReader br=new BufferReader(new InputStreamReader(System.in));
+int x,y,z;
+System.out.print("Enter x & y");
+x=Integer.purseInt(br.readLine());
+y=Integer.purseInt(br.readLine());
+  z=x+y;
+System.out.print("Addition is"+z);
+}
+}
+
